@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: rgba(0, 0, 0, 0.75);
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+  }
+  img,
+  picture,
+  svg,
+  video {
+    display: block;
+    max-width: 100%;
+  }
+  input,
+  select,
+  textarea {
+    background-color: transparent;
+    outline: none;
+  }
+  button {
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+  }
+  body {
+    min-height: 97vh;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    padding-right: 0;
+    width: auto;
+    background-image: url('https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+   .app
+   {
+  
+    background-image: url('https://cdn.pixabay.com/photo/2012/02/28/00/36/dark-17595_640.jpg');
+     background-position: center;
+     transition: 0.4 ease-out;
+    background-repeat: no-repeat;
+    position: relative;
+   }
+  
+   .app.warm{
+    background-image: url('https://cdn.pixabay.com/photo/2012/02/28/00/36/dark-17595_640.jpg');
+   }
+   main{
+    min-height: 120vh;
+     background-image:linear-gradient(to bottom,rgba(0,0,0,0.2),rgba(0,0,0,0.75));
+  
+  position: relative;
+  
+  
+    }
+  .search-box{
+    width: 100%;
+    margin: 0 0 75px;
+    margin-top: 7rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center
+  
+  
+  }
+  
+  .search-box .search-bar{
+    appearance: none;
+    background: none;
+    outline: none;
+    background-color: rgba(255,255,255,0.75);
+    border-radius:  16px ;
+    padding: 13px;
+    width: 28%;
+    border: none;
+    box-shadow: 0px 5px rgba(0,0,0,0.2);
+    color: #313131;
+    font-size: 15px;
+    transition: 0.4 ease;
+  }
+  .search-box .search-bar:focus{
+    background-color: rgba(35, 31, 31, 0.9) ;
+  
+  }
+  .location-box .location{
+    color: #FFF;
+    font-size:32px;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 3px 3px rgba(50,50,70,0.5);
+    padding: 15px;
+  }
+  .location-box .date{
+    color: #FFF;
+    font-size:20px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    text-shadow:1.5px 1.5px rgba(50,50,70,0.5) ;
+  }
+  
+  .wearther-box{
+    text-align: center;
+  
+  }
+  
+  .wearther-box .temp{
+    position: relative;
+    display: inline-block;
+    margin: 30px auto;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 14px;
+    padding: 15px 25px;
+    color: #FFF;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 3px 6px rgba(50,50,70,0.5);
+    box-shadow: rgba(0,0,0,0.2);
+  
+  }
+  .wearther-box .wearther{
+    color: #FFF;
+    font-size: 44px;
+    font-weight: 700;
+    text-shadow: rgba(50,50,70,0.5);
+  }
+  .wearther-box .wind{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 500;
+    text-shadow: rgba(50,50,70,0.5);
+    padding: 15px;
+     background-color: rgba(255,255,255,0.3);
+    border-radius: 14px;
+    padding: 15px 25px;
+    color: #FFF;
+    font-size:25px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 1px 3px rgba(50,50,70,0.5);
+    box-shadow: rgba(0,0,0,0.2); 
+  }
+  .boder-box
+  {
+    
+    display:flex;
+    
+    margin: 15px auto;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: nowrap;
+  }
+     
+    /*= background-color: rgba(255,255,255,0.3);
+    border-radius: 14px;
+    padding: 15px 25px;
+    color: #FFF;
+    font-size:25px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 1px 3px rgba(50,50,70,0.5);
+    box-shadow: rgba(0,0,0,0.2); */
+  
+  
+  .boder-box.humidity{
+    color: #FFF;
+    font-size: 22px;
+     background-color: rgba(255,255,255,0.3);
+    border-radius: 14px;
+    padding: 15px 25px;
+    color: #FFF;
+    font-size:25px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 1px 3px rgba(50,50,70,0.5);
+    box-shadow: rgba(0,0,0,0.2);
+    margin-top: 15px;
+  }
+.press{
+    color: #FFF;
+    font-size: 22px;
+     background-color: rgba(255,255,255,0.3);
+    border-radius: 14px;
+    padding: 15px 25px;
+    margin-top: 15px;
+    color: #FFF;
+    font-size:25px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 1px 3px rgba(50,50,70,0.5);
+    box-shadow: rgba(0,0,0,0.2);
+   }
+  .box-list{
+    width: 98%;
+    padding-top: 95px;
+  }
+  

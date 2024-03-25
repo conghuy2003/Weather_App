@@ -1,0 +1,39 @@
+/* listweather.css */
+.list{
+    width:98%;  
+ 
+}
+.weather-item {
+    display: flex;
+    align-items: center;
+    padding: 0.3rem;
+    background-color: #898c8e;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.7rem;
+    border-radius:.4em ;
+  
+  }
+  
+  .date {
+    flex: 2;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .temp {
+    flex: 1;
+    font-size: 1rem;
+    color: #413b3b;
+    text-align: center;
+  }
+  
+  .weather {
+    flex: 1;
+    font-size: 1rem;
+    color: #333;
+    text-align: right;
+  }
+  .humti{
+
+    padding-left: 3rem;
+  }
